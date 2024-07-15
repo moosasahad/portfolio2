@@ -1,0 +1,242 @@
+.body{
+    background-color: rgb(17, 8, 90);
+    color: #fff;"
+}
+.navbar-toggler-icon{
+   background-image:url(https://qph.cf2.quoracdn.net/main-qimg-22f6049b1c572596e6f8ef32c89b1880);
+}
+.nav-item:hover{
+    color: #25D366 !important;
+    font-size: 30px;
+}
+.navbar.container{
+    color: #25D366;
+    background-color: chartreuse;
+}
+#hovicon:hover{
+    color: #070e11;
+}
+.button button{
+ width: 40px;
+ height: 40px;
+ background-color: rgb(17, 8, 90);
+ color: rgb(125, 125, 243);
+ border: 2px solid rgb(125, 125, 243) ;
+ border-radius: 50px;
+ margin: 5px;
+}
+.hovering:hover{
+    background-color: rgb(9, 5, 44);
+    color: #fff;
+    box-shadow: 2px 2px 3px  #311791;
+
+}
+.toogle-icon{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+}
+.cvbuuton{
+    width: 170px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(125, 125, 243);
+    /* box-shadow: 2px 2px 5px 2px blueviolet; */
+    border: blueviolet;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(17, 8, 90);
+}
+.cvbuuton:hover{
+    background-color: rgb(9, 5, 44);
+    color: #fff;
+    box-shadow: 2px 2px 3px 3px #311791;
+}
+.image-cuntiner{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+.image-cuntiner img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+}
+.graph-container{
+    background-color: rgb(3, 3, 63);
+    padding: 20px;
+    border-radius: 30px;
+    width: 100%;
+}
+.graph-container{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.progress:hover{
+    height: 30px;
+    font-size: 30px;
+}
+.projectcontainer{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    background-color: rgb(3, 3, 63);
+    border-radius: 30px;
+    padding: 30px;
+    
+}
+.wraper{
+    width: 100%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imagediv{
+    width: 250px;
+    border-radius: 30px;
+    position: relative;
+
+    
+}
+.imagediv img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    height: 250px;
+    border-radius: 30px;
+}
+.hover-content{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    border-radius: 30px;
+}
+.hover-content:hover{
+    opacity: 1;
+}
+.hover-content > *{
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+.hover-content:hover > *{
+    transform: translateY(0px);
+}
+.hover-content button{
+    width: 30px;
+
+}
+.main-div{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    background-color: rgb(3, 3, 63);
+    border-radius: 30px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.main-div form input{
+    width: 450px;
+    height: 50px;
+    padding-left: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color:  rgb(24, 12, 116);
+}
+.main-div form input:hover{
+   border:1px solid rgb(4, 3, 65);
+}
+.formse{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.textaria{
+    width: 80%;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:  rgb(31, 18, 131);
+}
+.textaria:hover{
+    border:1px solid rgb(4, 3, 65);
+}
+::placeholder{
+    color: #fff;
+}
+.form-submit{
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.image-frame{
+    width: 300px;
+    height: 350px;
+    border: 6px solid #54B4D3;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-frame img{
+    width: 550px;
+    height: 498px; 
+    margin-top: 35px;
+}
+.about-continer{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 30px;
+    background-color: rgb(3, 3, 63);
+}
+.Readmore{
+    background-color: transparent;
+    border: blueviolet;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.whatsapp{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    color: #25D366;
+    font-size: 40px;
+}
+.whatsapp:hover{
+    font-size: 45px;
+    color: #1abd56;
+
+}
+.Readmore{
+    margin: 0;
+    left: 0;
+}
