@@ -240,3 +240,27 @@
     margin: 0;
     left: 0;
 }
+ul a::after{ 
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: .5s;
+    }
+    
+    
+    
+    ul a:hover::after{ 
+    /* color: rgb(9, 240, 240); */
+    font-size: 3.07rem;
+    width: 100%;
+    
+    }
+    ul a{
+        text-decoration: none;
+        color: antiquewhite;
+        position: relative;
+        }
